@@ -9,7 +9,10 @@
     line-height: 40px;
     /* 设置背景颜色 */
     background-color: rgb(118, 184, 125);
+    position: fixed;
+    top: 0;
 }
+
 /* 设置超链接的颜色 */
 .topbar a{
     font-size: 12px;
@@ -51,7 +54,23 @@
     background-color: rgb(58, 136, 214);
 }
 
+/* 底部导航栏固定 */
+.botton-wrapper{
+    position: fixed;
+    bottom: 0;
+}
+/* 底部导航栏元素浮动 */
 .service2, .botbar li{
     float: left;
 }
+/* 底部导航元素布局 */
+.service2 a{
+    display: block;
+    padding: 0 125px;
+}
 
+/* 正文 */
+.data{
+    position: relative;
+    top: 40px;
+}
